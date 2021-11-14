@@ -1,0 +1,88 @@
+:root {
+    --primary: #003865;
+    --navy-blue: #0070C0;
+    --summer-sky: #4590E1;
+    --columbia-blue: #84DEFF;
+    --maya-blue: #45B8FF;
+    --secondary: #00B5E2;
+    --gray: #535353;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+p {
+    color: var(--gray);
+}
+
+span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.first-section {
+    background:url(/images/bghero.jpg) rgba(7, 7, 7, 0.527);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+.first-section h2, h3 {
+    color: white;
+}
+
+.first-section h3 {
+    font-size: 100px;
+}
+
+.second-section h2 {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.third-section {
+    position: relative;
+}
+
+.third-section img {
+    height: 500px;
+}
+
+.third-section .top-right {
+    position: absolute;
+    top:5%;
+    left: 43%;
+}
+.third-section .top-right h3 {
+    margin-top: -30px;  
+    font-size: 120px;
+    color: black;
+    letter-spacing: -15px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.third-section .top-right h2 {
+    font-size: 20px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.fourth-section h2 {
+    color: var(--primary) !important;
+    font-size: 42px;
+}
+
+.fourth-section img {
+    height: 500px;
+}
