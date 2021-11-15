@@ -28,7 +28,7 @@ span {
 }
 
 .first-section {
-    background:url(images/bghero.jpg) rgba(7, 7, 7, 0.527);
+    background-image: url(/images/bghero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,7 +37,7 @@ span {
 }
 
 .first-section h2, h3 {
-    color: white;
+    color: var(--primary);
 }
 
 .first-section h3 {
@@ -101,7 +101,7 @@ span {
     }
 
      .third-section {
-        margin-top: 500px;
+        margin-top: 300px;
     }
 
     .fourth-section{
@@ -111,9 +111,10 @@ span {
     .fifth-section {
         margin-top: 350px;
     }
-    .mobile-h3 {
+    .mobile-headline {
         color: var(--primary);
-        font-size: 36px;
+        font-size: 28px !important;
+        font-weight: bold;
     }
     
 }
