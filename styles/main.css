@@ -28,7 +28,7 @@ span {
 }
 
 .first-section {
-    background:url(/images/bghero.jpg) rgba(7, 7, 7, 0.527);
+    background:url(images/bghero.jpg) rgba(7, 7, 7, 0.527);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
