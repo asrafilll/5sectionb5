@@ -86,3 +86,29 @@ span {
 .fourth-section img {
     height: 500px;
 }
+
+.fifth-section {
+    margin-top: 250px;
+}
+
+@media screen and (max-width: 500px) {
+    .first-section h3 {
+        font-size: 50px;
+    }
+    .first-section  {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .third-section {
+        margin-top: 300px;
+    }
+
+    .fourth-section, .fifth-section{
+        margin-top: 600px;
+    }
+    .mobile-h3 {
+        color: var(--primary);
+        font-size: 36px;
+    }
+    
+}
