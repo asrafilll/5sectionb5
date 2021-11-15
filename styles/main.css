@@ -143,5 +143,35 @@ span {
         font-size: 28px !important;
         font-weight: bold;
     }
+
+    .inside-box {
+        height: 90vh;
+        background-color: var(--primary);
+        width: 60%;
+        box-shadow: 0px 4px 12px 0px rgba(44, 44, 44, 0.233);
+        padding: 60px 40px 20px 60px;
+    }
+    
+    .textbox-heading {
+        color: #fff;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+    .textbox-heading .highlight {
+        color: rgb(255, 51, 0) !important;
+    }
+    
+    .textbox-heading::after {
+        content:'';
+        top: 115%;
+        position: absolute;
+        background-color: #fff;
+        width: 30%;
+        height: 5px;
+        bottom: 0;
+        left:0;
+    }
+    
     
 }
