@@ -88,23 +88,27 @@ span {
 }
 
 .fifth-section {
-    margin-top: 250px;
+    margin: 200px 0px 200px 0px;
 }
 
 @media screen and (max-width: 500px) {
     .first-section h3 {
-        font-size: 50px;
+        font-size: 36px;
     }
     .first-section  {
         text-align: center;
         margin-bottom: 100px;
     }
-    .third-section {
+    .third-section, {
         margin-top: 300px;
     }
 
-    .fourth-section, .fifth-section{
-        margin-top: 600px;
+    .fourth-section{
+        margin-top: 500px;
+    }
+
+    .fifth-section {
+        margin-top: 350px;
     }
     .mobile-h3 {
         color: var(--primary);
