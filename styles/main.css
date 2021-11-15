@@ -32,8 +32,6 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: multiply;
-
 }
 
 .first-section h2, h3 {
@@ -90,6 +88,46 @@ span {
 .fifth-section {
     margin: 200px 0px 200px 0px;
 }
+
+
+.anotherpage {
+    background-image: url(/images/section-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-left: 0px;
+}
+
+.inside-box {
+    height: 90vh;
+    background-color: var(--primary);
+    width: 30%;
+    box-shadow: 0px 4px 12px 0px rgba(44, 44, 44, 0.233);
+    padding: 60px 40px 20px 60px;
+}
+
+.textbox-heading {
+    color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox-heading .highlight {
+    color: rgb(255, 51, 0) !important;
+}
+
+.textbox-heading::after {
+    content:'';
+    top: 115%;
+    position: absolute;
+    background-color: #fff;
+    width: 30%;
+    height: 5px;
+    bottom: 0;
+    left:0;
+}
+
 
 @media screen and (max-width: 500px) {
     .first-section h3 {
